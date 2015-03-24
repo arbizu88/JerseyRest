@@ -20,7 +20,7 @@ public class Persona {
 
 	@Id
 	@GeneratedValue(strategy = IDENTITY)
-	@Column(name = "name")
+	@Column(name = "Id")
 	public Integer getId() {
 		return id;
 	}
